@@ -1,0 +1,9 @@
+<ul class="sponsors__content_data">
+  {% for sponsor in site.data.sponsors[include.level] %}
+  <li class="sponsors__data_item">
+    <a href="{{ sponsor.link }}" class="sponsors__data_link" target="_blank" rel="noopener">
+      <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ sponsor.image }}" alt="{{ sponsor.name }}" class="sponsors__data_image">
+    </a>
+  </li>
+  {% endfor %}
+</ul>
