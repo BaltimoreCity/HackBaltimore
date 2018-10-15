@@ -1,0 +1,50 @@
+<section class="areas-mentors">
+  <div class="container__column">
+    <h2 class="h2__headline headline__center headline__white">Judges & Mentors</h2>
+    <h3 class="h3__headline headline__center">Qualified Specialists</h3>
+    <ul class="areas-mentors__content content-list">
+      {% for mentor in site.data.mentors %}
+      <li class="areas-mentors__content_item">
+        <div class="areas-mentors__content_image container__image">
+          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ mentor.image }}" alt="Mentor photo" class="image__cover">
+        </div>
+        <div class="areas-mentors__content_info">
+          <h4 class="areas-mentors__info_h4">{{ mentor.name }}</h4>
+          <h5 class="areas-mentors__info_h5">{{ mentor.title }}</h5>
+          <p class="areas-mentors__info_p">{{ mentor.description }}</p>
+          <div class="areas-mentors__info_social">
+            {% if mentor.facebook %}
+            <a href="{{ mentor.facebook }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
+              <svg class="areas-mentors__info_icon">
+                <use xlink:href="icons/icons.svg#footer-facebook" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if mentor.twitter %}
+            <a href="{{ mentor.twitter }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
+              <svg class="areas-mentors__info_icon">
+                <use xlink:href="icons/icons.svg#footer-twitter" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if mentor.instagram %}
+            <a href="{{ mentor.instagram }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
+              <svg class="areas-mentors__info_icon">
+                <use xlink:href="icons/icons.svg#footer-instagram" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if mentor.linkedin %}
+            <a href="{{ mentor.linkedin }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
+              <svg class="areas-mentors__info_icon">
+                <use xlink:href="icons/icons.svg#footer-linkedin" />
+              </svg>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

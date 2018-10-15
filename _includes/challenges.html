@@ -1,0 +1,45 @@
+<section class="areas-challenges">
+  <div class="container__column">
+    <h2 class="h2__headline  headline__center headline__white">Challenges</h2>
+    <h3 class="h3__headline_small h3__headline headline__center">These events will be interesting for you!</h3>
+    <ul class="areas-challenges__content content-list">
+      {% for challenge in site.data.challenges %}
+      <li class="areas-challenges__content_item">
+        <ul class="areas-challenges__content_info">
+          <li class="areas-challenges__info_item">
+            <h4 class="areas-challenges__info_h4">{{ challenge.name }}</h4>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Title:</h5>
+            <p class="areas-challenges__info_p">{{ challenge.title }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Description:</h5>
+            <p class="areas-challenges__info_p">{{ challenge.description }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Focus Area:</h5>
+            <p class="areas-challenges__info_p">{{ challenge.focus }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Organization:</h5>
+            <p class="areas-challenges__info_p">{{ challenge.organization }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Contact:</h5>
+            <p class="areas-challenges__info_p">{{ challenge.contact }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5"></h5>
+            <a href="tel:{{ challenge.contact_phone }}" class="areas-challenges__info_link areas-challenges__info_p" target="_blank" rel="noopener">{{ challenge.contact_phone }}</a>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5"></h5>
+            <a href="mailto:{{ challenge.contact_email }}" class="areas-challenges__info_link areas-challenges__info_p" target="_blank" rel="noopener">{{ challenge.contact_email }}</a>
+          </li>
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
