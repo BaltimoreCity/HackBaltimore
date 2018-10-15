@@ -1,0 +1,4 @@
+name: Hack Baltimore
+baseurl: ""
+url: "http://example.com"
+markdown: kramdown
