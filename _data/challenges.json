@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Challenge #01",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  },
+  {
+    "name": "Challenge #02",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  },
+  {
+    "name": "Challenge #03",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  },
+  {
+    "name": "Challenge #04",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  },
+  {
+    "name": "Challenge #05",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  },
+  {
+    "name": "Challenge #06",
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut aliquam, excepturi tempore fuga maiores illum!",
+    "focus": "Housing",
+    "organization": "Lorem",
+    "contact": "Terrell Suggs",
+    "contact_phone": "+1-(540)-555-4000",
+    "contact_email": "terrell@example.com"
+  }
+]

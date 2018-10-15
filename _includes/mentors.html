@@ -3,302 +3,48 @@
     <h2 class="h2__headline headline__center headline__white">Judges & Mentors</h2>
     <h3 class="h3__headline headline__center">Qualified Specialists</h3>
     <ul class="areas-mentors__content content-list">
+      {% for mentor in site.data.mentors %}
       <li class="areas-mentors__content_item">
         <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors01.png" alt="Mentor photo" class="image__cover">
+          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="{{ mentor.image }}" alt="Mentor photo" class="image__cover">
         </div>
         <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Stephen J. Bisciotti</h4>
-          <h5 class="areas-mentors__info_h5">Judge</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
+          <h4 class="areas-mentors__info_h4">{{ mentor.name }}</h4>
+          <h5 class="areas-mentors__info_h5">{{ mentor.title }}</h5>
+          <p class="areas-mentors__info_p">{{ mentor.description }}</p>
           <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
+            {% if mentor.facebook %}
+            <a href="{{ mentor.facebook }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
               <svg class="areas-mentors__info_icon">
                 <use xlink:href="icons/icons.svg#footer-facebook" />
               </svg>
             </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if mentor.twitter %}
+            <a href="{{ mentor.twitter }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
               <svg class="areas-mentors__info_icon">
                 <use xlink:href="icons/icons.svg#footer-twitter" />
               </svg>
             </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if mentor.instagram %}
+            <a href="{{ mentor.instagram }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
               <svg class="areas-mentors__info_icon">
                 <use xlink:href="icons/icons.svg#footer-instagram" />
               </svg>
             </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if mentor.linkedin %}
+            <a href="{{ mentor.linkedin }}" class="areas-mentors__info_link" target="_blank" rel="noopener">
               <svg class="areas-mentors__info_icon">
                 <use xlink:href="icons/icons.svg#footer-linkedin" />
               </svg>
             </a>
+            {% endif %}
           </div>
         </div>
       </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors02.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Lisa Dixon</h4>
-          <h5 class="areas-mentors__info_h5">Judge</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors03.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Richard W. Cass</h4>
-          <h5 class="areas-mentors__info_h5">Mentor</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors04.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Kelly Lekas</h4>
-          <h5 class="areas-mentors__info_h5">Mentor</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors04.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Kelly Lekas</h4>
-          <h5 class="areas-mentors__info_h5">Mentor</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors01.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Stephen J. Bisciotti</h4>
-          <h5 class="areas-mentors__info_h5">Judge</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors02.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Lisa Dixon</h4>
-          <h5 class="areas-mentors__info_h5">Judge</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
-      <li class="areas-mentors__content_item">
-        <div class="areas-mentors__content_image container__image">
-          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/areas-mentors03.png" alt="Mentor photo" class="image__cover">
-        </div>
-        <div class="areas-mentors__content_info">
-          <h4 class="areas-mentors__info_h4">Richard W. Cass</h4>
-          <h5 class="areas-mentors__info_h5">Mentor</h5>
-          <p class="areas-mentors__info_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione rem repellendus consequatur magni tempora quod quis. Unde quaerat repellendus eligendi deleniti, aspernatur quisquam?</p>
-          <div class="areas-mentors__info_social">
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            <a href="#" class="areas-mentors__info_link" target="_blank" rel="noopener">
-              <svg class="areas-mentors__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </li>
+      {% endfor %}
     </ul>
   </div>
 </section>

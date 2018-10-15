@@ -1,12 +1,12 @@
 {
   "platinum": [
     {
-      "image": "images/sponsors01.png",
+      "image": "images/sponsors02.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
     {
-      "image": "images/sponsors02.png",
+      "image": "images/sponsors01.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
@@ -28,12 +28,12 @@
       "link": "#"
     },
     {
-      "image": "images/sponsors02.png",
+      "image": "images/sponsors03.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
     {
-      "image": "images/sponsors03.png",
+      "image": "images/sponsors02.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
@@ -45,11 +45,6 @@
   ],
   "silver": [
     {
-      "image": "images/sponsors01.png",
-      "name": "HackBaltimore sponsor",
-      "link": "#"
-    },
-    {
       "image": "images/sponsors02.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
@@ -61,6 +56,11 @@
     },
     {
       "image": "images/sponsors04.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors01.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     }
@@ -72,12 +72,12 @@
       "link": "#"
     },
     {
-      "image": "images/sponsors02.png",
+      "image": "images/sponsors03.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
     {
-      "image": "images/sponsors03.png",
+      "image": "images/sponsors02.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
@@ -89,22 +89,22 @@
   ],
   "technology": [
     {
-      "image": "images/sponsors01.png",
-      "name": "HackBaltimore sponsor",
-      "link": "#"
-    },
-    {
-      "image": "images/sponsors02.png",
-      "name": "HackBaltimore sponsor",
-      "link": "#"
-    },
-    {
       "image": "images/sponsors03.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
     {
       "image": "images/sponsors04.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors01.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors02.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     }
@@ -121,12 +121,12 @@
       "link": "#"
     },
     {
-      "image": "images/sponsors03.png",
+      "image": "images/sponsors04.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     },
     {
-      "image": "images/sponsors04.png",
+      "image": "images/sponsors03.png",
       "name": "HackBaltimore sponsor",
       "link": "#"
     }
