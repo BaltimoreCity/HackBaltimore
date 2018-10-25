@@ -5,13 +5,13 @@ The HackBaltimore website is statically generated using jekyll and GitHub pages.
 This README assumes that the reader has previous knowledge and experience using Ruby on Rails, jekyll, GitHub pages, JSON, and related web dev technologies.
 
 To edit the website locally you must first:
-1. Get Ruby on Rails running on your computer
+1. Get Ruby running on your computer
 1. Make sure you have bundler. You can try: `gem install bundler`
 1. Clone this repository
-1. Make sure you have all the latest gems, e.g. via `bundle exec install`
+1. Make sure you have all the latest gems, e.g. via `bundle install`
 
 To review edits you make before committing them:
-1. jekyll serve
+1. bundle exec jekyll serve
 1. http://localhost:4000/
 
 # JSON Files
