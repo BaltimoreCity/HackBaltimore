@@ -18,31 +18,42 @@ title: Get In Touch
           <h5 class="getintouch-organizers__info_h5">&nbsp;</h5>
           <p class="getintouch-organizers__info_p">{{ member.bio }}</p>
           <div class="getintouch-organizers__info_social">
-            <a href="#" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+            {% if member.facebook != null %}
+            <a href="{{ member.facebook }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
               <svg class="getintouch-organizers__info_icon">
                 <use xlink:href="icons/icons.svg#footer-facebook" />
               </svg>
             </a>
-            <a href="#" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if member.twitter != null %}
+            <a href="{{ member.twitter }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
               <svg class="getintouch-organizers__info_icon">
                 <use xlink:href="icons/icons.svg#footer-twitter" />
               </svg>
             </a>
-            <a href="#" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if member.instagram != null %}
+            <a href="{{ member.instagram }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
               <svg class="getintouch-organizers__info_icon">
                 <use xlink:href="icons/icons.svg#footer-instagram" />
               </svg>
             </a>
-            <a href="#" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if member.google != null %}
+            <a href="{{ member.google }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
               <svg class="getintouch-organizers__info_icon">
                 <use xlink:href="icons/icons.svg#footer-google" />
               </svg>
             </a>
-            <a href="#" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+            {% endif %}
+            {% if member.linkedin != null %}
+            <a href="{{ member.linkedin }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
               <svg class="getintouch-organizers__info_icon">
                 <use xlink:href="icons/icons.svg#footer-linkedin" />
               </svg>
             </a>
+            {% endif %}
+
           </div>
         </div>
       </li>
