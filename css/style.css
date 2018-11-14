@@ -169,7 +169,7 @@ blockquote {
 
 .main {
     flex: 1 0 auto;
-    
+
 }
 
 .footer {
@@ -950,6 +950,12 @@ section {
     justify-content: space-between;
 }
 
+.footer__contact_data {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
 .footer__p {
     display: flex;
     align-items: center;
@@ -1497,7 +1503,7 @@ section {
     width: 12rem;
     flex-shrink: 0;
     fill: #fff;
-    
+
 }
 
 .participate-funding__info_number {
@@ -1727,58 +1733,58 @@ section {
 
 
 @media screen and (max-width : 1680px) {
-    
+
     html {
         font-size: 9px;
     }
 }
 
 @media screen and (max-width : 1366px) {
-    
+
     html {
         font-size: 8.5px;
     }
 }
 
 @media screen and (max-width : 1280px) {
-    
+
     html {
         font-size: 8px;
     }
 }
 
 @media screen and (max-width : 1024px) {
-    
+
     html {
         font-size: 6.3px;
     }
 }
 
 @media screen and (max-width : 768px) {
-    
+
     html {
         font-size: 4.5px;
     }
-    
+
     .home {
         height: calc(50vh - 10rem);
     }
 }
 
 @media screen and (max-width : 640px) {
-   
+
     html {
         font-size: 7px;
     }
-    
+
     body {
         background: #fff;
     }
-    
+
     .home__container {
         padding-left: 4rem;
     }
-    
+
     .home__h3 {
         font: 300 3.9rem / 1 'Teko', sans-serif;
         letter-spacing: .75em;
@@ -1789,7 +1795,7 @@ section {
         transform: translateX(-.75rem);
         font: 300 13rem / 1 'Teko', sans-serif;
         letter-spacing: .1em;
-        
+
     }
 
     .home__p {
@@ -1801,11 +1807,11 @@ section {
     .home__button {
         margin-top: 4.5rem;
     }
-    
+
     .banner__h2 {
         font: 500 4.75rem / 1.1 'Teko', sans-serif;
     }
-    
+
     .overview,
     .vision,
     .plan,
@@ -1815,7 +1821,7 @@ section {
     .getintouch-contact {
         padding: 0;
     }
-    
+
     .overview__container,
     .vision__container,
     .plan__container,
@@ -1825,7 +1831,7 @@ section {
     .getintouch-contact__container {
         padding: 0;
     }
-    
+
     .overview__display,
     .vision__display,
     .plan__display,
@@ -1833,7 +1839,7 @@ section {
     .getintouch-contact__display {
         display: none;
     }
-    
+
     .overview__content,
     .vision__content,
     .plan__content,
@@ -1843,13 +1849,13 @@ section {
     .getintouch-contact__form {
         width: 100%;
     }
-    
+
     .vision__container,
     .areas-overview__container,
     .participate-funding__container {
         flex-direction: column;
     }
-    
+
     .vision__info,
     .areas-overview__info {
         width: 100%;
@@ -1870,7 +1876,7 @@ section {
     .areas__content_item {
         width: calc(100% / 3);
     }
-    
+
     .h3__headline_small {
         font: 500 5.5rem / 1 'Teko', sans-serif;
     }
@@ -1878,11 +1884,11 @@ section {
     .participate__content_label {
         width: 10rem;
     }
-    
+
     .participate__content_headline {
         font: 500 7rem / 1 'Teko', sans-serif;
     }
-    
+
     .sponsors__content {
         margin-top: 3.5rem;
     }
@@ -1907,7 +1913,7 @@ section {
     .sponsors__content_data {
         padding: 2rem 5rem;
     }
-    
+
     .sponsors__data_image {
         height: 5rem;
     }
@@ -1915,85 +1921,85 @@ section {
     .footer__item:first-of-type {
         display: none;
     }
-    
+
     .footer__bottom_link,
     .footer__bottom_h4 {
         font: 400 1.6rem / 1.5 'Muli', sans-serif;
     }
-    
+
     .areas-headline {
         padding: 11rem 0 10rem 8rem;
     }
-    
+
     .areas-challenges__content_item,
     .areas-mentors__content_item,
     .getintouch-organizers__content_item {
         width: calc(100% / 2 - .5rem);
     }
-    
+
     .areas-teams__content_info,
     .participate-teams__content_info,
     .participate-partners__content_info {
         background: #F5F5F5;
     }
-    
+
     .areas-teams__content_item,
     .areas-schedule__content__item,
     .participate-teams__content_item,
     .participate-partners__content_item {
         width: 100%;
     }
-    
+
     .participate-funding__content {
         background: #F5F5F5;
-        
+
     }
-    
+
     .participate-funding__info {
         width: 100%;
         padding-left: 0;
         background: #fff;
     }
-    
+
     .participate-funding__info_item {
         height: auto;
         margin-top: 1rem;
         padding: 5rem;
     }
-    
+
     .form__h2 {
         font: 500 7rem / .85 'Teko', sans-serif;
     }
-    
+
     .form__h3 {
         font: 300 2.5rem / 1 'Muli', sans-serif;
     }
-    
+
 }
 
 @media screen and (max-width : 480px) {
-   
+
     html {
         font-size: 6px;
     }
 }
 
 @media screen and (max-width : 420px) {
-   
+
     html {
         font-size: 4.25px;
     }
 }
 
 @media screen and (max-width : 380px) {
-   
+
     html {
         font-size: 3.75px;
     }
 }
 
 @media screen and (max-width : 320px) {
-   
+
     html {
         font-size: 3.25px;
     }
