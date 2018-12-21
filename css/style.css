@@ -211,7 +211,7 @@ section {
     margin-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .display {
@@ -1636,6 +1636,7 @@ section {
 
 .getintouch-organizers__content_item {
     width: calc(100% / 4 - .75rem);
+    margin: .25rem;
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
