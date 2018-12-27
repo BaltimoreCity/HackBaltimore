@@ -876,6 +876,14 @@ section {
     background: #000 url(../images/section__bg01.png) 50% 50% / cover no-repeat;
 }
 
+.sponsors-container {
+    display: flex;
+}
+
+.sponsors-headline {
+    justify-content: center;
+}
+
 .sponsors__content {
     margin-top: 3.5rem;
 }
