@@ -1984,6 +1984,18 @@ section {
         font: 300 2.5rem / 1 'Muli', sans-serif;
     }
 
+    .getintouch-organizers__content_info{
+      position: relative;
+    }
+
+    .image__cover {
+      height: unset;
+      width: 100%;
+    }
+    .getintouch-organizers__content_image{
+      padding-bottom: 140pt;
+    }
+
 }
 
 @media screen and (max-width : 480px) {
