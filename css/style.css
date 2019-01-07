@@ -872,6 +872,22 @@ section {
     transform: scale(1);
 }
 
+.participate-participant__form{
+    width: 42.5%;
+}
+
+.participate-participant__display {
+    width: 57.5%;
+    margin: 0rem 1rem;
+}
+
+.participate-participant .display__item:nth-of-type(5) {
+    filter: grayscale(100%);
+}
+
+.participate-participant .display__item:nth-of-type(5):hover {
+    filter: grayscale(0);
+}
 
 .sponsors {
     background: #000 url(../images/section__bg01.png) 50% 50% / cover no-repeat;
