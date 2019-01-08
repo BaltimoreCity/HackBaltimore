@@ -872,6 +872,50 @@ section {
     transform: scale(1);
 }
 
+<<<<<<< HEAD
+=======
+.participate-participant__form{
+    /* width: 42.5%; */
+    width: 100%;
+}
+
+.participate-participant {
+  padding: 0rem;
+}
+
+.participate-participant__display {
+    width: 57.5%;
+    margin: 0rem 1rem;
+}
+
+.participate-participant .display__item:nth-of-type(5) {
+    filter: grayscale(100%);
+}
+
+.participate-participant .display__item:nth-of-type(5):hover {
+    filter: grayscale(0);
+}
+
+.participate-participant__container {
+    width:100%;
+    padding: 0rem;
+}
+
+.participant__button {
+    width: 25%;
+    margin: 0% 38%;
+}
+
+.participant__form {
+    display:none;
+}
+
+#participant-form {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+>>>>>>> fdd563e... Added participant form with blinds effect
 .sponsors {
     background: #000 url(../images/section__bg01.png) 50% 50% / cover no-repeat;
 }
