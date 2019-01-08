@@ -873,7 +873,12 @@ section {
 }
 
 .participate-participant__form{
-    width: 42.5%;
+    /* width: 42.5%; */
+    width: 100%;
+}
+
+.participate-participant {
+  padding: 0rem;
 }
 
 .participate-participant__display {
@@ -887,6 +892,25 @@ section {
 
 .participate-participant .display__item:nth-of-type(5):hover {
     filter: grayscale(0);
+}
+
+.participate-participant__container {
+    width:100%;
+    padding: 0rem;
+}
+
+.participant__button {
+    width: 25%;
+    margin: 0% 38%;
+}
+
+.participant__form {
+    display:none;
+}
+
+#participant-form {
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .sponsors {
