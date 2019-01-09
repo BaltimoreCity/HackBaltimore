@@ -1,0 +1,38 @@
+<section class="areas-challenges">
+  <div id="ideas" class="anchor"></div>
+  <div class="container__column">
+    <h2 class="h2__headline  headline__center headline__white">Community Ideas</h2>
+    <h3 class="h3__headline_small h3__headline headline__center">Coming Soon!</h3>
+    <ul class="areas-challenges__content content-list">
+      {% for ideas in site.data.ideas %}
+      <li class="areas-challenges__content_item">
+        <ul class="areas-challenges__content_info">
+          <li class="areas-challenges__info_item">
+            <h4 class="areas-challenges__info_h4">{{ ideas.name }}</h4>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Focus Area:</h5>
+            <p class="areas-challenges__info_p">{{ ideas.focus }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Problem:</h5>
+            <p class="areas-challenges__info_p">{{ ideas.problem }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Proposed Solution:</h5>
+            <p class="areas-challenges__info_p">{{ ideas.solution }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Why this matters:</h5>
+            <p class="areas-challenges__info_p">{{ ideas.value }}</p>
+          </li>
+          <li class="areas-challenges__info_item">
+            <h5 class="areas-challenges__info_h5">Additional Documentation:</h5>
+            <p class="areas-challenges__info_p">{{ ideas.documentation }}</p>
+          </li>
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
