@@ -1744,6 +1744,37 @@ section {
   margin: .2rem;
 }
 
+.participate-ideas__form{
+    width: 100%;
+}
+
+.ideas-form-container{
+  background: transparent;
+}
+
+.participate-ideas {
+  padding: 0rem;
+}
+
+.participate-ideas__display {
+    width: 57.5%;
+    margin: 0rem 1rem;
+}
+
+.ideas__button {
+    width: 25%;
+    margin: 0% 37.5%;
+}
+
+.ideas__form {
+    display:none;
+}
+
+#ideas-form {
+    margin-top: 1rem;
+    width: 100%;
+}
+
 
 @media screen and (max-width : 1680px) {
 

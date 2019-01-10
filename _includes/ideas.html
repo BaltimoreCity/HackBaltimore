@@ -1,3 +1,8 @@
+
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/functions.js"></script>
+
 <section class="areas-challenges">
   <div id="ideas" class="anchor"></div>
   <div class="container__column">
@@ -34,5 +39,16 @@
       </li>
       {% endfor %}
     </ul>
+  </div>
+  <div class="participate-ideas__container container__row">
+    <form action="#" id="participate-ideas__form" class="participate-ideas__form ">
+      <div class="form__container ideas-form-container">
+        <button id="show-ideas" class="ideas__button button"> Submit an Idea </button>
+        <div class="ideas__form">
+          <iframe id="ideas-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdiJKU9jEj6UiGVG_46o9A4GuzgrSrePpjaJbJTVzBY3EK-9Q/viewform?embedded=true" width="640" height="1655" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <button id="hide-ideas" class="ideas__button button"> Hide </button>
+        </div>
+      </div>
+    </form>
   </div>
 </section>
