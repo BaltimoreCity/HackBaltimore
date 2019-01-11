@@ -955,7 +955,7 @@ section {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
 }
 
 .footer__contact_data {
@@ -970,6 +970,15 @@ section {
     font: 400 1.8rem / 1.5 'Muli', sans-serif;
     color: #F5F5F5;
     fill: #F5F5F5;
+    margin: .5rem 0rem;
+}
+
+.footer__email {
+  margin-top: 1rem;
+}
+
+.footer__email-link{
+  justify-content: center;
 }
 
 .footer__item:first-of-type .footer__p {
@@ -2038,6 +2047,11 @@ section {
       padding-bottom: 140pt;
     }
 
+    .twitter-timeline {
+      display:none;
+      visibility: hidden;
+    }
+
 }
 
 @media screen and (max-width : 480px) {
@@ -2045,6 +2059,11 @@ section {
     html {
         font-size: 6px;
     }
+    .twitter-timeline {
+      display:none;
+      visibility: hidden;
+    }
+
 }
 
 @media screen and (max-width : 420px) {
@@ -2052,6 +2071,7 @@ section {
     html {
         font-size: 4.25px;
     }
+
 }
 
 @media screen and (max-width : 380px) {
@@ -2059,6 +2079,7 @@ section {
     html {
         font-size: 3.75px;
     }
+
 }
 
 @media screen and (max-width : 320px) {
@@ -2066,4 +2087,5 @@ section {
     html {
         font-size: 3.25px;
     }
+
 }
