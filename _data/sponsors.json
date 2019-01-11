@@ -1,4 +1,33 @@
 {
+  "founding": [
+    {
+      "image": "images/sponsors02.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors01.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors03.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    },
+    {
+      "image": "images/sponsors04.png",
+      "name": "HackBaltimore sponsor",
+      "link": "#"
+    }
+  ],
+  "premier": [
+    {
+      "image": "images/sponsor-fearless.svg",
+      "name": "Fearless",
+      "link": "https://fearless.tech/"
+    },
+  ],
   "platinum": [
     {
       "image": "images/sponsors02.png",
