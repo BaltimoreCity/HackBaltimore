@@ -872,6 +872,47 @@ section {
     transform: scale(1);
 }
 
+.participate-participant__form{
+    /* width: 42.5%; */
+    width: 100%;
+}
+
+.participate-participant {
+  padding: 0rem;
+}
+
+.participate-participant__display {
+    width: 57.5%;
+    margin: 0rem 1rem;
+}
+
+.participate-participant .display__item:nth-of-type(5) {
+    filter: grayscale(100%);
+}
+
+.participate-participant .display__item:nth-of-type(5):hover {
+    filter: grayscale(0);
+}
+
+.participate-participant__container {
+    width:100%;
+    padding: 0rem;
+}
+
+.participant__button {
+    width: 25%;
+    margin: 0% 38%;
+}
+
+.participant__form {
+    display:none;
+}
+
+#participant-form {
+    margin-top: 1rem;
+    width: 100%;
+}
+
 .sponsors {
     background: #000 url(../images/section__bg01.png) 50% 50% / cover no-repeat;
 }
@@ -955,7 +996,7 @@ section {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: normal;
 }
 
 .footer__contact_data {
@@ -970,6 +1011,15 @@ section {
     font: 400 1.8rem / 1.5 'Muli', sans-serif;
     color: #F5F5F5;
     fill: #F5F5F5;
+    margin: .5rem 0rem;
+}
+
+.footer__email {
+  margin-top: 1rem;
+}
+
+.footer__email-link{
+  justify-content: center;
 }
 
 .footer__item:first-of-type .footer__p {
@@ -1740,6 +1790,7 @@ section {
     width: 35%;
 }
 
+
 .areas-challenges__content_item {
   margin: .2rem;
 }
@@ -1773,6 +1824,13 @@ section {
 #ideas-form {
     margin-top: 1rem;
     width: 100%;
+
+.focus-content {
+  width: 100%
+}
+
+.focus-description {
+  padding: 2rem 0rem;
 }
 
 
@@ -2031,6 +2089,11 @@ section {
       padding-bottom: 140pt;
     }
 
+    .twitter-timeline {
+      display:none;
+      visibility: hidden;
+    }
+
 }
 
 @media screen and (max-width : 480px) {
@@ -2038,6 +2101,11 @@ section {
     html {
         font-size: 6px;
     }
+    .twitter-timeline {
+      display:none;
+      visibility: hidden;
+    }
+
 }
 
 @media screen and (max-width : 420px) {
@@ -2045,6 +2113,7 @@ section {
     html {
         font-size: 4.25px;
     }
+
 }
 
 @media screen and (max-width : 380px) {
@@ -2052,6 +2121,7 @@ section {
     html {
         font-size: 3.75px;
     }
+
 }
 
 @media screen and (max-width : 320px) {
@@ -2059,4 +2129,5 @@ section {
     html {
         font-size: 3.25px;
     }
+
 }
