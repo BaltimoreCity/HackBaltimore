@@ -2,13 +2,13 @@
   <div class="container__row sponsors-container">
     <div class="container__column sponsors-headline">
       <h2 class="h2__headline headline__center headline__white">Our sponsors</h2>
-      <h3 class="h3__headline headline__center">To be announced</h3>
     </div>
-    <div class="container__row">
-      <a class="twitter-timeline" data-width="1000" data-height="500" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/HackBaltimore?ref_src=twsrc%5Etfw">Tweets by HackBaltimore</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-{% comment %}
     <ul class="sponsors__content">
+      <li class="sponsors__content_item">
+        <h4 class="sponsors__content_h4">Premier Sponsors</h4>
+        {% include sponsor.html level="premier" %}
+      </li>
+{% comment %}
       <li class="sponsors__content_item">
         <h4 class="sponsors__content_h4">Platinum Sponsors</h4>
         {% include sponsor.html level="platinum" %}
@@ -33,7 +33,7 @@
         <h4 class="sponsors__content_h4">Community Sponsors</h4>
         {% include sponsor.html level="community" %}
       </li>
+  {% endcomment %}
     </ul>
-{% endcomment %}
   </div>
 </section>
