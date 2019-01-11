@@ -1790,6 +1790,14 @@ section {
     width: 35%;
 }
 
+.focus-content {
+  width: 100%
+}
+
+.focus-description {
+  padding: 2rem 0rem;
+}
+
 
 @media screen and (max-width : 1680px) {
 
