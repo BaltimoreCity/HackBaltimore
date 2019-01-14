@@ -15,6 +15,7 @@ $(document).ready(function() {
       $('html,body').animate({
         scrollTop: $("#ideas").offset().top},
         'slow');
+  });
 
   $("#hide").click(function(){
       $(".participant__form").hide( "blind", {direction: "vertical"}, 1000 );
