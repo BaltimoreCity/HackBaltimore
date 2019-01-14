@@ -18,49 +18,57 @@ To review edits you make before committing them:
 There are a number of data files that populate the content of the site. The JSON files and their expected formats/inputs are described here.
 
 ## Mentors: _data/mentors.json
->  {
->    "image": "images/areas-mentors02.png",
->    "name": "Lisa Dixon",
->    "title": "CIO at Widgets Inc",
->    "description": "Enter a bio for the mentor here",
->    "facebook": "#",
->    "instagram": "#",
->    "linkedin": "#"
->  }
+```javascript
+{
+  "image": "images/areas-mentors02.png",
+  "name": "Lisa Dixon",
+  "title": "CIO at Widgets Inc",
+  "description": "Enter a bio for the mentor here",
+  "facebook": "#",
+  "instagram": "#",
+  "linkedin": "#"
+}
+```
 
 ## Teams: _data/teams.json
->  {
->    "name": "Ravens",
->    "image": "images/ravens.png",
->    "captain": "Terrell Suggs",
->    "members": [
->      "Javorius Allen",
->      "Mark Andrews",
->      "Anthony Averett",
->      "Chris Board",
->      "Tyus Bowser",
->      "Nick Boyle",
->      "Bradley Bozeman",
->      "Orlando Brown"
->    ]
->  }
+```javascript
+{
+  "name": "Ravens",
+  "image": "images/ravens.png",
+  "captain": "Terrell Suggs",
+  "members": [
+    "Javorius Allen",
+    "Mark Andrews",
+    "Anthony Averett",
+    "Chris Board",
+    "Tyus Bowser",
+    "Nick Boyle",
+    "Bradley Bozeman",
+    "Orlando Brown"
+  ]
+}
+```
 
 ## Challenges: _data/challenges.json
->  {
->    "name": "Housing",
->    "title": "Equitable Housing for All",
->    "description": "Baltimore City faces a shortage of affordable housing.",
->    "focus": "Housing",
->    "organization": "HUD",
->    "contact": "Terrell Suggs",
->    "contact_phone": "+1-(540)-555-4000",
->    "contact_email": "terrell@example.com"
->  }
+```javascript
+{
+  "name": "Housing",
+  "title": "Equitable Housing for All",
+  "description": "Baltimore City faces a shortage of affordable housing.",
+  "focus": "Housing",
+  "organization": "HUD",
+  "contact": "Terrell Suggs",
+  "contact_phone": "+1-(540)-555-4000",
+  "contact_email": "terrell@example.com"
+}
+```
 
 ## Organizers: _data/organizers.json
 It is assumed that all organizers' photos / images will be stored in `/images/organizers/`.
->   {
->      "name": "Barack Obama",
->      "bio": "Barack Obama served as the 44th President of the USA."
->      "image": "barack-obama.jpg"
->   }
+```javascript
+{
+  "name": "Barack Obama",
+  "bio": "Barack Obama served as the 44th President of the USA."
+  "image": "barack-obama.jpg"
+}
+```
