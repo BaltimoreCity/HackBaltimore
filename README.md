@@ -72,3 +72,15 @@ It is assumed that all organizers' photos / images will be stored in `/images/or
   "image": "barack-obama.jpg"
 }
 ```
+
+## Ideas: _data/ideas.json
+```javascript
+{
+  "name": "Equitable Housing for All",
+  "focus": "Housing"
+  "problem": "Baltimore City faces a shortage of affordable housing."
+  "solution": "Enter a solution to the problem here"
+  "value": "Explain why the idea and solution matter here"
+  "documentation": "examplelink.com supports my idea by providing research into the problem"
+}
+```
