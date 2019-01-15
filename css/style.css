@@ -2088,8 +2088,8 @@ section {
       padding-bottom: 140pt;
     }
 
-    .twitter-timeline {
-      display:none;
+    .twitter-timeline,
+    .twitter-item {
       visibility: hidden;
     }
 
@@ -2100,8 +2100,9 @@ section {
     html {
         font-size: 6px;
     }
-    .twitter-timeline {
-      display:none;
+    .twitter-timeline,
+    .twitter-item {
+      display: none;
       visibility: hidden;
     }
 
@@ -2112,7 +2113,6 @@ section {
     html {
         font-size: 4.25px;
     }
-
 }
 
 @media screen and (max-width : 380px) {
