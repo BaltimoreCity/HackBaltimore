@@ -872,8 +872,6 @@ section {
     transform: scale(1);
 }
 
-<<<<<<< HEAD
-=======
 .participate-participant__form{
     /* width: 42.5%; */
     width: 100%;
@@ -915,7 +913,6 @@ section {
     width: 100%;
 }
 
->>>>>>> fdd563e... Added participant form with blinds effect
 .sponsors {
     background: #000 url(../images/section__bg01.png) 50% 50% / cover no-repeat;
 }
@@ -1826,7 +1823,7 @@ section {
 #ideas-form {
     margin-top: 1rem;
     width: 100%;
-}    
+}
 .focus-content {
   width: 100%
 }
