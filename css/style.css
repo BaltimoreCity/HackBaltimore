@@ -1790,7 +1790,6 @@ section {
     width: 35%;
 }
 
-
 .areas-challenges__content_item {
   margin: .2rem;
 }
@@ -1824,7 +1823,7 @@ section {
 #ideas-form {
     margin-top: 1rem;
     width: 100%;
-
+}
 .focus-content {
   width: 100%
 }
@@ -2089,8 +2088,8 @@ section {
       padding-bottom: 140pt;
     }
 
-    .twitter-timeline {
-      display:none;
+    .twitter-timeline,
+    .twitter-item {
       visibility: hidden;
     }
 
@@ -2101,8 +2100,9 @@ section {
     html {
         font-size: 6px;
     }
-    .twitter-timeline {
-      display:none;
+    .twitter-timeline,
+    .twitter-item {
+      display: none;
       visibility: hidden;
     }
 
@@ -2113,7 +2113,6 @@ section {
     html {
         font-size: 4.25px;
     }
-
 }
 
 @media screen and (max-width : 380px) {
@@ -2131,3 +2130,4 @@ section {
     }
 
 }
+
