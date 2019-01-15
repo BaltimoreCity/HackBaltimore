@@ -1,6 +1,5 @@
 
 $(document).ready(function() {
-
    $("#hide-ideas").click(function(e){
        e.preventDefault();
        $(".ideas__form").hide( "blind", {direction: "vertical"}, 1000 );
@@ -23,6 +22,5 @@ $(document).ready(function() {
 
    $("#show").click(function(){
        $(".participant__form").show( "blind", {direction: "vertical"}, 1000 );
-
    });
 });
