@@ -20,7 +20,8 @@ $(document).ready(function() {
        $(".participant__form").hide( "blind", {direction: "vertical"}, 1000 );
    });
 
-   $("#show").click(function(){
+   $("#show").click(function(e){
+       e.preventDefault();
        $(".participant__form").show( "blind", {direction: "vertical"}, 1000 );
    });
 });
