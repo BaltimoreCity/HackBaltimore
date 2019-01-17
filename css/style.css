@@ -2097,6 +2097,10 @@ section {
       visibility: hidden;
     }
 
+    .cfb-image {
+      margin-top: 13%;
+    }
+
 }
 
 @media screen and (max-width : 480px) {
