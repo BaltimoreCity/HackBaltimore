@@ -1,2 +1,36 @@
 [
+  {
+    "name": "Technological interventions can provide jobs for neighborhood residents",
+    "focus": "Workforce Development",
+    "problem": "Access to jobs and job training is lacking in West Baltimore and was consistently identified
+    as a priority in this neighborhood.",
+    "solution": "Residents want to be producers or facilitators of technological interventions as well as users. Access to employment and job training programs are a top priority for participants. The construction and maintenance of new technology can involve residents. For example, installing fiber optic cable could be an opportunity to train and employ West Baltimore residents with vital technological skills. Regardless of what technology is introduced, residents made clear that the way new technology is implemented is incredibly important.",
+    "value": "Residents want to own, manage, and maintain new technology and use the construction of smart city infrastructure as a way to generate new jobs for West Baltimore residents.",
+    "documentation": "https://bit.ly/2RyRLyC",
+  },
+  {
+    "name": "Access data collected in and about Baltimore neighborhoods",
+    "focus": "Public Safety",
+    "problem": "Participants of all ages raised concerns about crime and safety. Public safety was among participants’ top neighborhood priorities, and nearly half (46%) of residents identified public safety among the top three services that they would most like to see improved.",
+    "solution": "Residents repeatedly mentioned the need for better access to data being collected about their neighborhood. When neighborhood data are shared with residents, they can better inform city officials and others about what is missing or can be improved.Participants want better access to data collected about neighborhood crime (e.g., from existing police or private surveillance cameras) and more opportunities to document and track conditions and incidents themselves.",
+    "value": "Providing residents with greater access to crime data already collected by public cameras would facilitate better community-police relationships and help to develop more effective solutions to
+    community safety, a top neighborhood priority.",
+    "documentation": "https://bit.ly/2RyRLyC",
+  },
+  {
+    "name": "Improve access to employment through mobile applications",
+    "focus": "Workforce Development",
+    "problem": "Residents discussed the need for more job opportunities both inside and outside the neighborhood, and training to ensure that they had the skills to get the jobs, especially for those with a history of substance abuse or a criminal record.",
+    "solution": "Given that most residents rely primarily on their cell phones, participants suggested creating a mobile application and database to provide information about job opportunities in and around West Baltimore. Other participants discussed the possibility of using mobile applications as a kind of neighborhood listserv to share information and resources with their neighbors, including employment opportunities.",
+    "value": "This will help provide participants with more information about job opportunities surrounding them and keep the community engaged, increasing involvement.",
+    "documentation": "https://bit.ly/2RyRLyC",
+  },
+  {
+    "name": "Grocery Delivery Service",
+    "focus": "Health & Wellness, Workforce Development",
+    "problem": "There is a lack of grocery store and healthy food options in West Baltimore",
+    "solution": "Delivery service app to facilitate the delivery of groceries from different neighborhoods around the city.",
+    "value": "This provides the option of bringing healthy food into West Baltimore without traveling far out of the city and allows better access to needed groceries.",
+    "documentation": "https://bit.ly/2RyRLyC",
+  },
 ]

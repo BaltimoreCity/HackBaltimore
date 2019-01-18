@@ -81,6 +81,6 @@ It is assumed that all organizers' photos / images will be stored in `/images/or
   "problem": "Baltimore City faces a shortage of affordable housing."
   "solution": "Enter a solution to the problem here"
   "value": "Explain why the idea and solution matter here"
-  "documentation": "examplelink.com supports my idea by providing research into the problem"
+  "documentation": "examplelink.com"
 }
 ```

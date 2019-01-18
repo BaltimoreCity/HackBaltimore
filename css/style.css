@@ -1837,6 +1837,14 @@ section {
   height: auto;
 }
 
+.areas-challenges__content_item{
+  flex-direction: row;
+}
+
+.participate-participant__form{
+  padding: 0rem;
+}
+
 @media screen and (max-width : 1680px) {
 
     html {

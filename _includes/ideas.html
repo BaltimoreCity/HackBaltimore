@@ -7,7 +7,18 @@
   <div id="ideas" class="anchor"></div>
   <div class="container__column">
     <h2 class="h2__headline  headline__center headline__white">Community Ideas</h2>
-    <h3 class="h3__headline_small h3__headline headline__center">Coming Soon!</h3>
+    <!-- <h3 class="h3__headline_small h3__headline headline__center">Coming Soon!</h3> -->
+    <div class="participate-ideas__container container__row">
+      <form action="#" id="participate-ideas__form" class="participate-ideas__form ">
+        <div class="form__container ideas-form-container">
+          <button id="show-ideas" class="ideas__button button"> Submit an Idea </button>
+          <div class="ideas__form">
+            <iframe id="ideas-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdiJKU9jEj6UiGVG_46o9A4GuzgrSrePpjaJbJTVzBY3EK-9Q/viewform?embedded=true" width="640" height="1655" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <button id="hide-ideas" class="ideas__button button"> Hide </button>
+          </div>
+        </div>
+      </form>
+    </div>
     <ul class="areas-challenges__content content-list">
       {% for ideas in site.data.ideas %}
       <li class="areas-challenges__content_item">
@@ -32,23 +43,12 @@
             <p class="areas-challenges__info_p">{{ ideas.value }}</p>
           </li>
           <li class="areas-challenges__info_item">
-            <h5 class="areas-challenges__info_h5">Additional Documentation:</h5>
-            <p class="areas-challenges__info_p">{{ ideas.documentation }}</p>
+            <h5 class="areas-challenges__info_h5">Supporting Documents:</h5>
+            <p class="areas-challenges__info_p"><a href="{{ ideas.documentation }}">{{ ideas.documentation }} provides more in depth information about this solution</a></p>
           </li>
         </ul>
       </li>
       {% endfor %}
     </ul>
-  </div>
-  <div class="participate-ideas__container container__row">
-    <form action="#" id="participate-ideas__form" class="participate-ideas__form ">
-      <div class="form__container ideas-form-container">
-        <button id="show-ideas" class="ideas__button button"> Submit an Idea </button>
-        <div class="ideas__form">
-          <iframe id="ideas-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdiJKU9jEj6UiGVG_46o9A4GuzgrSrePpjaJbJTVzBY3EK-9Q/viewform?embedded=true" width="640" height="1655" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-          <button id="hide-ideas" class="ideas__button button"> Hide </button>
-        </div>
-      </div>
-    </form>
   </div>
 </section>
