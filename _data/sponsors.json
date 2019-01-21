@@ -1,4 +1,12 @@
 {
+
+  "partner": [
+    {
+      "image": "images/sponsor-cfb.png",
+      "name": "Code for Baltimore",
+      "link": "http://www.codeforbaltimore.org/"
+    },
+  ],
   "founding": [
     {
       "image": "images/sponsors02.png",

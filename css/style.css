@@ -1832,10 +1832,10 @@ section {
   padding: 2rem 0rem;
 }
 
-.cfb-image {
-  margin-top: 38%;
-  height: auto;
+.sponsors__content_data {
+  width: 20rem;
 }
+
 
 @media screen and (max-width : 1680px) {
 
