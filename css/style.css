@@ -1832,8 +1832,16 @@ section {
   padding: 2rem 0rem;
 }
 
+.sponsors__content {
+  width: 100%;
+}
+
+.sponsors__data_item {
+  padding: 0rem 2rem;
+}
+
 .sponsors__content_data {
-  width: 20rem;
+  justify-content: start;
 }
 
 

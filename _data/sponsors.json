@@ -6,6 +6,11 @@
       "name": "Code for Baltimore",
       "link": "http://www.codeforbaltimore.org/"
     },
+    {
+      "image": "images/sponsor-devopsdays.png",
+      "name": "DevOpsDays Baltimore",
+      "link": "https://www.devopsdays.org/events/2019-baltimore/welcome/"
+    },
   ],
   "founding": [
     {
