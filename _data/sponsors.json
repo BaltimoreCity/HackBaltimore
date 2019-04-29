@@ -14,34 +14,42 @@
     {
       "image": "images/partner-baltimorehackathon.jpg",
       "name": "Baltimore Hackathon",
+      "link": "https://www.baltimorehackathon.com/"
     },
     {
       "image": "images/partner-harmonyhacks.png",
       "name": "Harmony Hacks: Peabody",
+      "link": "https://peabody.jhu.edu/explore-peabody/libraries-archives/hacking-harmony/"
     },
     {
       "image": "images/partner-givebackhack.png",
       "name": "GiveBackHack Baltimore",
+      "link": "https://givebackhack.com/baltimore/"
     },
     {
       "image": "images/partner-harborhacks.jpg",
       "name": "HarborHacks - Digital Harbor",
+      "link": "https://www.digitalharbor.org/whatwedo/youth/harbor-hacks/"
     },
     {
       "image": "images/partner-medhacks.png",
       "name": "MedHacks",
+      "link": "https://medhacks.io"
     },
     {
       "image": "images/partner-hophacks.png",
       "name": "HopHacks",
+      "link": "https://hophacks.com/"
     },
     {
       "image": "images/partner-hackforimpact.png",
       "name": "Hack for Impact Baltimore",
+      "link": "https://hack-for-impact.devpost.com/"
     },
     {
       "image": "images/partner-devopsdaysbaltimore.png",
       "name": "DevOpsDays Baltimore",
+      "link": "https://www.devopsdays.org/events/2019-baltimore/welcome/"
     },
 
   ],
