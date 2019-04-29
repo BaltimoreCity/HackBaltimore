@@ -6,6 +6,44 @@
       "name": "Code for Baltimore",
       "link": "http://www.codeforbaltimore.org/"
     },
+    {
+      "image": "images/partner-hackumbc.png",
+      "name": "HackUMBC",
+      "link": "https://www.hackumbc.org/"
+    },
+    {
+      "image": "images/partner-baltimorehackathon.jpg",
+      "name": "Baltimore Hackathon",
+    },
+    {
+      "image": "images/partner-harmonyhacks.png",
+      "name": "Harmony Hacks: Peabody",
+    },
+    {
+      "image": "images/partner-givebackhack.png",
+      "name": "GiveBackHack Baltimore",
+    },
+    {
+      "image": "images/partner-harborhacks.jpg",
+      "name": "HarborHacks - Digital Harbor",
+    },
+    {
+      "image": "images/partner-medhacks.png",
+      "name": "MedHacks",
+    },
+    {
+      "image": "images/partner-hophacks.png",
+      "name": "HopHacks",
+    },
+    {
+      "image": "images/partner-hackforimpact.png",
+      "name": "Hack for Impact Baltimore",
+    },
+    {
+      "image": "images/partner-devopsdaysbaltimore.png",
+      "name": "DevOpsDays Baltimore",
+    },
+
   ],
   "founding": [
     {

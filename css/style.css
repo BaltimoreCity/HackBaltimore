@@ -960,7 +960,7 @@ section {
 }
 
 .sponsors__data_image {
-    height: 6.5rem;
+    height: 5rem;
     filter:grayscale(100%);
     transition: all .3s ease-out;
 }
@@ -1832,9 +1832,6 @@ section {
   padding: 2rem 0rem;
 }
 
-.sponsors__content_data {
-  width: 20rem;
-}
 
 
 @media screen and (max-width : 1680px) {
@@ -2021,6 +2018,8 @@ section {
 
     .sponsors__data_image {
         height: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .footer__item:first-of-type {
