@@ -2,3 +2,9 @@ name: Hack Baltimore
 baseurl: ""
 url: "http://example.com"
 markdown: kramdown
+
+# Support for Twitter Cards (link unfurling)
+twitter_username: HackBaltimore
+description: | 
+  What if we could bring together Baltimore’s extensive and talented community and harness our resources to hack the city’s biggest problems? Hack Baltimore will be a large-scale, city-wide event that taps into Charm City’s flourishing diversity and creativity to solve our toughest problems.
+title_image: /images/logo.png
