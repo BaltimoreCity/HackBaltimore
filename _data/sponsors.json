@@ -51,7 +51,46 @@
       "name": "DevOpsDays Baltimore",
       "link": "https://www.devopsdays.org/events/2019-baltimore/welcome/"
     },
-
+    {
+      "image": "images/partner-bmore.png",
+      "name": "Baltimore Black Techies",
+      "link": "https://www.meetup.com/Baltimore-Black-Techies-Meetup"
+    },
+    {
+      "image": "images/partner-homebase.png",
+      "name": "Homebase",
+      "link": "https://www.homebase.works"
+    },
+    {
+      "image": "images/partner-startupgrind.png",
+      "name": "Startup Grind",
+      "link": "https://www.startupgrind.com"
+    },
+    {
+      "image": "images/partner-mindhub.png",
+      "name": "Mindhub",
+      "link": "https://hub.mindgrub.com"
+    },
+    {
+      "image": "images/partner-tribestaffing.png",
+      "name": "Tribe",
+      "link": "https://www.tribestaffing.co"
+    },
+    {
+      "image": "images/partner-women.png",
+      "name": "Women Techmakers",
+      "link": "https://www.womentechmakers.com"
+    },
+    {
+      "image": "images/partner-bnia.png",
+      "name": "BNIA",
+      "link": ""
+    },
+    {
+      "image": "images/partner-general-services.png",
+      "name": "General Services",
+      "link": ""
+    }
   ],
   "founding": [
     {
