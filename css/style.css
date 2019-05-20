@@ -904,6 +904,10 @@ section {
     margin: 0% 38%;
 }
 
+#hide.participant__button {
+    display: none;
+}
+
 .participant__form {
     display:none;
 }

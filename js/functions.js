@@ -16,12 +16,21 @@ $(document).ready(function() {
          'slow');
    });
 
-   $("#hide").click(function(){
+   $("#hide").click(function(e){
+       e.preventDefault();
        $(".participant__form").hide( "blind", {direction: "vertical"}, 1000 );
+       setTimeout(() => {
+        $("#show").show()
+        $("#hide").hide()
+       }, 1000);
    });
 
    $("#show").click(function(e){
        e.preventDefault();
        $(".participant__form").show( "blind", {direction: "vertical"}, 1000 );
+       setTimeout(() => {
+        $("#show").hide()
+        $("#hide").show()           
+       }, 1000);
    });
 });
