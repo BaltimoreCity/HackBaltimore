@@ -1,6 +1,20 @@
 {
-
   "partner": [
+    {
+      "image": "images/aws.png",
+      "name": "Amazon",
+      "link": "https://aws.amazon.com/"
+    },
+    {
+      "image": "images/smartlogic-seal-teal-75.png",
+      "name": "Smartlogic",
+      "link": "https://smartlogic.io/"
+    },
+    {
+      "image": "images/syncthecity.png",
+      "name": "Sync the City",
+      "link": "http://www.syncthecity.in/"
+    },
     {
       "image": "images/sponsor-cfb.png",
       "name": "Code for Baltimore",
@@ -119,7 +133,7 @@
       "image": "images/sponsor-fearless.svg",
       "name": "Fearless",
       "link": "https://fearless.tech/"
-    },
+    }
   ],
   "platinum": [
     {
