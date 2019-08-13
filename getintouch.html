@@ -2,65 +2,7 @@
 layout: default
 title: Get In Touch
 ---
-<section class="getintouch-organizers">
-  <div id="organizers" class="anchor"></div>
-  <div class="container__column">
-    <h2 class="h2__headline headline__center headline__white">Hack Baltimore team</h2>
-    <h3 class="h3__headline headline__center">Core organizers</h3>
-    <ul class="getintouch-organizers__content content-list">
-{% for member in site.data.organizers %}
-      <li class="getintouch-organizers__content_item">
-        <div class="getintouch-organizers__content_image container__image">
-          <img src="images/organizers/{{ member.image }}" alt="{{ member.name }}" class="image__cover">
-        </div>
-        <div class="getintouch-organizers__content_info">
-          <h4 class="getintouch-organizers__info_h4">{{ member.name }}</h4>
-          <h5 class="getintouch-organizers__info_h5">{{ member.role }}</h5>
-          <p class="getintouch-organizers__info_p">{{ member.bio }}</p>
-          <div class="getintouch-organizers__info_social">
-            {% if member.facebook != null %}
-            <a href="{{ member.facebook }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
-              <svg class="getintouch-organizers__info_icon">
-                <use xlink:href="icons/icons.svg#footer-facebook" />
-              </svg>
-            </a>
-            {% endif %}
-            {% if member.twitter != null %}
-            <a href="{{ member.twitter }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
-              <svg class="getintouch-organizers__info_icon">
-                <use xlink:href="icons/icons.svg#footer-twitter" />
-              </svg>
-            </a>
-            {% endif %}
-            {% if member.instagram != null %}
-            <a href="{{ member.instagram }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
-              <svg class="getintouch-organizers__info_icon">
-                <use xlink:href="icons/icons.svg#footer-instagram" />
-              </svg>
-            </a>
-            {% endif %}
-            {% if member.google != null %}
-            <a href="{{ member.google }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
-              <svg class="getintouch-organizers__info_icon">
-                <use xlink:href="icons/icons.svg#footer-google" />
-              </svg>
-            </a>
-            {% endif %}
-            {% if member.linkedin != null %}
-            <a href="{{ member.linkedin }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
-              <svg class="getintouch-organizers__info_icon">
-                <use xlink:href="icons/icons.svg#footer-linkedin" />
-              </svg>
-            </a>
-            {% endif %}
 
-          </div>
-        </div>
-      </li>
-{% endfor %}
-    </ul>
-  </div>
-</section>
 <section class="getintouch-contact">
   <div id="contact" class="anchor"></div>
   <div class="getintouch-contact__container container__row">
@@ -144,6 +86,65 @@ title: Get In Touch
         <button type="submit" class="form__button button">Send message</button>
       </div>
     </form>
+  </div>
+</section>
+<section class="getintouch-organizers">
+  <div id="organizers" class="anchor"></div>
+  <div class="container__column">
+    <h2 class="h2__headline headline__center headline__white">Hack Baltimore team</h2>
+    <h3 class="h3__headline headline__center">Core organizers</h3>
+    <ul class="getintouch-organizers__content content-list">
+{% for member in site.data.organizers %}
+      <li class="getintouch-organizers__content_item">
+        <div class="getintouch-organizers__content_image container__image">
+          <img src="images/organizers/{{ member.image }}" alt="{{ member.name }}" class="image__cover">
+        </div>
+        <div class="getintouch-organizers__content_info">
+          <h4 class="getintouch-organizers__info_h4">{{ member.name }}</h4>
+          <h5 class="getintouch-organizers__info_h5">{{ member.role }}</h5>
+          <p class="getintouch-organizers__info_p">{{ member.bio }}</p>
+          <div class="getintouch-organizers__info_social">
+            {% if member.facebook != null %}
+            <a href="{{ member.facebook }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+              <svg class="getintouch-organizers__info_icon">
+                <use xlink:href="icons/icons.svg#footer-facebook" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if member.twitter != null %}
+            <a href="{{ member.twitter }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+              <svg class="getintouch-organizers__info_icon">
+                <use xlink:href="icons/icons.svg#footer-twitter" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if member.instagram != null %}
+            <a href="{{ member.instagram }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+              <svg class="getintouch-organizers__info_icon">
+                <use xlink:href="icons/icons.svg#footer-instagram" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if member.google != null %}
+            <a href="{{ member.google }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+              <svg class="getintouch-organizers__info_icon">
+                <use xlink:href="icons/icons.svg#footer-google" />
+              </svg>
+            </a>
+            {% endif %}
+            {% if member.linkedin != null %}
+            <a href="{{ member.linkedin }}" class="getintouch-organizers__info_link" target="_blank" rel="noopener">
+              <svg class="getintouch-organizers__info_icon">
+                <use xlink:href="icons/icons.svg#footer-linkedin" />
+              </svg>
+            </a>
+            {% endif %}
+
+          </div>
+        </div>
+      </li>
+{% endfor %}
+    </ul>
   </div>
 </section>
 {% include sponsors.html %}
