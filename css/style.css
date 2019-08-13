@@ -1767,7 +1767,7 @@ section {
     margin-top: 1rem;
     display: flex;
     flex: 1 0 auto;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     font: 400 1.6rem / 1.5 'Muli', sans-serif;
     color: #757575;
